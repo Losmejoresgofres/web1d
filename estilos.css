@@ -1,0 +1,59 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: brown;
+}
+
+h2{
+    color: cadetblue;
+}
+
+form{
+    padding: 10px;
+}
+
+#Flogin {
+    background-image: url("spike.jfif")
+}
+background-color: greenyellow;
+#fregistro {
+    background-image: url("spike.jfif")
+}
+body {
+    background-image: none;;
+    margin: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+#cabecera {
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+#menu {
+    background-color: cadetblue;
+    padding: 10px;
+}
+
+/
+#contenido {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(226, 43, 43);
+}
+
+a:hover {
+    color: darkblue;
+}
+
+img {
+    width: 300px;
+    height: auto;
+}

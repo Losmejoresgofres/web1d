@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<script>
+    function mostrar() {
+        document.getElementById("información").innerHTML = "Hola, que tal";
+    }
+    function ocultar() {
+        document.getElementById("información").innerHTML = "";
+    }
+    function Pizza() {
+        document.getElementById("imagen").src = "pizza.jfif";
+    }
+    function Burger() {
+        document.getElementById("imagen").src = "burger.jpg";
+    }
+
+</script>
+<body>
+    <h1>Javascript</h1>
+    <h2>Alerts</h2>
+    <p>Al hacer click en el enlace se abre una ventana</p>
+    <a href="javascript:alert('hola')">Click aquí</a>
+    <button onclick="alert('Has hecho click en el botón')">
+        Hazme click
+    </button>
+    <br>
+    <button onclick="alert('Has hecho click en el botón')">
+            Hazme click
+        </button>
+    <br>
+    <h2>Cambiar contenido de la página</h2>
+    <p id="información"></p>
+    <button onclick="mostrar()">Muestra información</button>
+    <br>
+    <br>
+    <button onclick="ocultar()">Oculta información</button>
+    <br>
+    <h2>Una ventana nueva</h2>
+    <P>Para ir a youtube haz click</P>
+    <a href="javascript:window.open('http://www.youtube.com')">Página de youtube</a>
+    <br>
+    <h2>Cambiar imagen</h2>
+    <button onclick="Pizza()">Pizza</button>
+    <br>
+    <br>
+    <button onclick="Burger()">Burger</button>
+    <img id="imagen" src="" alt="">
+    <br>
+    <br>
+    <a href="index.html">Índex</a>  
+</body>
+</html>
